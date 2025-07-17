@@ -1,0 +1,58 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background: #0707f4;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+.sobre, .produtos, .carrinho, .checkout {
+  padding: 2rem;
+}
+.sobre-img img {
+  width: 100%;
+  max-width: 400px;
+}
+.produto-lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+.produto {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 6px;
+}
+.produto img {
+  width: 100%;
+}
+button, .botao {
+  background: #2ecc71;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+}
