@@ -2,41 +2,46 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Moda Urbana</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="header">
-    <h1>Moda Urbana</h1>
+    <div class="logo">
+      <img src="imagens/Logo moda urbana.png" alt="Logo Moda Urbana" />
+      <h1>Moda Urbana</h1>
+    </div>
     <nav class="menu">
       <a href="index.html">Início</a>
       <a href="#sobre">Sobre</a>
-      <a href="carrinho.html">Carrinho</a>
+      <a href="carrinho.html">Carrinho (<span id="contador-carrinho">0</span>)</a>
     </nav>
   </header>
 
-  <section id="sobre" class="sobre">
-    <div class="sobre-img">
-      <img src="imagens/Logo moda urbana.png" alt="ImagemLogoModaUrbana" />
-    </div>
-    <div class="sobre-texto">
-      <h2>Sobre a Loja</h2>
-      <p>Moda Urbana nasceu para vestir atitude. Aqui, estilo e acessibilidade andam juntos.</p>
-    </div>
-  </section>
+  <main>
+    <section id="sobre" class="sobre">
+      <div class="sobre-img">
+        <img src="imagens/logo moda urbana.png" alt="Logo Moda Urbana" />
+      </div>
+      <div class="sobre-texto">
+        <h2>Sobre a Loja</h2>
+        <p>Moda Urbana nasceu para vestir atitude. Aqui, estilo e acessibilidade andam juntos.</p>
+      </div>
+    </section>
 
-  <section id="produtos" class="produtos">
-    <h2>Produtos em Destaque</h2>
-    <input type="text" id="busca" placeholder="Buscar produto..." />
-    <div id="lista-produtos" class="produto-lista"></div>
-  </section>
+    <section id="produtos" class="produtos">
+      <h2>Produtos em Destaque</h2>
+      <input type="text" id="busca" placeholder="Buscar produto..." />
+      <div id="lista-produtos" class="produto-lista"></div>
+    </section>
+  </main>
 
   <footer class="footer">
     <p>&copy; 2025 Moda Urbana - Todos os direitos reservados.</p>
   </footer>
 
-  <a href="https://wa.me/5514998640372" class="whatsapp-float" target="_blank">WhatsApp</a>
+  <a href="https://wa.me/5514998640372" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">WhatsApp</a>
 
   <script src="script.js"></script>
 </body>
