@@ -295,3 +295,6 @@ button:hover, .botao:hover {
     gap: 40px;
   }
 }
+
+/* Ajuste para forçar deploy - sem impacto visual */
+
